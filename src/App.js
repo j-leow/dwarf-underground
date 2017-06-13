@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './Header.js'
+import Footer from './Footer.js'
 
 class App extends Component {
     render() {
     return (
       <div className="App">
         <Header />
+        
+        <Footer />
 
         <main className="expanded row">
           <div className="large-8 medium-12 columns article">
@@ -83,15 +86,12 @@ class App extends Component {
                 <img src="http://cdn23.us1.fansshare.com/photos/thehobbit/the-hobbit-square-characters-833282558.jpg" alt="hobbit" />
                 <p>Surprise for Indiana Hobbits born before 1999</p>
               </a>
+              
             </div>
           </div>
         </main>
 
-        <footer className="expanded row">
-          <h6>&copy; 2017 Erebor Industries</h6>
-          <h6 className="float-right">All rights reserved</h6>
-        </footer>
-      </div>
+  
     );
   }
   }
