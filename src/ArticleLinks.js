@@ -19,4 +19,4 @@ class ArticleLinks extends Component {
   }
 }
 
-export default Article-Links
+export default ArticleLinks

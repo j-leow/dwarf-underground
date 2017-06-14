@@ -18,4 +18,4 @@ class HeaderClearfix extends Component {
   }
 }
 
-export HeaderClearfix
+export default HeaderClearfix

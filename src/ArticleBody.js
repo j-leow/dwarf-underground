@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './css/ArticleBody.css'
 
-class ArticleBody extends Comment {
+class ArticleBody extends Component {
 
   render() {
     return (
