@@ -4,6 +4,7 @@ import Header from './Header.js'
 import Footer from './Footer.js'
 import Section from './Section.js'
 import ArticleLinks from './ArticleLinks.js'
+import Aside from './Aside.js'
 
 class App extends Component {
     render() {
@@ -11,6 +12,8 @@ class App extends Component {
       <div className="App">
         <Header />
         <Section />
+        <Aside />
+        <ArticleLinks />
         
         <Footer />
 
