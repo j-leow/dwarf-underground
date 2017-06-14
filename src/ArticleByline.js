@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './ArticleByline.css';
+import './css/ArticleByline.css';
 
 class ArticleByline extends Component {
   render() {
