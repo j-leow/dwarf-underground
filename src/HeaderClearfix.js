@@ -2,9 +2,8 @@ import React, { Component } from 'react'
 import './css/HeaderClearfix.css'
 
 class HeaderClearfix extends Component {
-  
   render() {
-    return {
+    return (
       <div className="clearfix">
         <div className="float-left logo">
           <img src="http://www.iconninja.com/files/409/4/1006/axe-icon.svg" alt="axe" />
@@ -15,7 +14,7 @@ class HeaderClearfix extends Component {
           <a href="#">Log in</a>
         </div>
       </div>
-    }
+    )
   }
 }
 

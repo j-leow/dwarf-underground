@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './css/ArticleLinks.css'
 
-class Article-Links extends Component {
+class ArticleLinks extends Component {
   
   render() {
     return (

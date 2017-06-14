@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './css/Header.css'
+import HeaderClearfix from './HeaderClearfix.js'
 
 class Header extends Component {
 
